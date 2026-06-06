@@ -1,4 +1,5 @@
 # 🤖 AI-Powered Candidate Screening System
+<img width="1906" height="996" alt="image" src="https://github.com/user-attachments/assets/8cf21df9-aa48-49a2-a1ca-e0a904be0513" />
 
 An intelligent, full-stack interview platform that uses **Retrieval-Augmented Generation (RAG)** to conduct personalised technical interviews based on a candidate's resume and target role.
 
