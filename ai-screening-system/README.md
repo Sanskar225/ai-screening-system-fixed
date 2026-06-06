@@ -132,7 +132,7 @@ cp .env.example .env
 mkdir -p data/books
 # Copy the provided PDFs into data/books/
 # e.g. data/books/machine_learning_tom_mitchell.pdf
-
+source venv/Scripts/activate
 # Start
 uvicorn app.main:app --reload --port 8000
 ```
