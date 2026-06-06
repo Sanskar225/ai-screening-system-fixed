@@ -17,7 +17,7 @@ services:
       - ./backend/data:/app/data
       - ./backend/uploads:/app/uploads
       - ./backend/chroma_db:/app/chroma_db
-      - screening_db:/app/screening.db
+      - ./backend/screening.db:/app/screening.db
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
@@ -35,5 +35,3 @@ services:
     depends_on:
       - backend
 
-volumes:
-  screening_db:
